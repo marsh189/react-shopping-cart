@@ -1,4 +1,3 @@
-// feature 1
 import React from "react";
 import Products from "./components/Products";
 import Filter from "./components/Filter";
@@ -7,7 +6,6 @@ import store from "./store";
 import { Provider } from "react-redux";
 
 class App extends React.Component {
-
   render() {
     return (
       <Provider store={store}>
@@ -22,7 +20,7 @@ class App extends React.Component {
                 <Products></Products>
               </div>
               <div className="sidebar">
-                <Cart></Cart>
+                <Cart />
               </div>
             </div>
           </main>
