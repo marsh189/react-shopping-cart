@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Filter from "../components/Filter";
-import Products from "../components/Products";
-import Cart from "../components/Cart";
+import Filter from "../Components/Filter";
+import Products from "../Components/Products";
+import Cart from "../Components/Cart";
 
 export default class HomeScreen extends Component {
   render() {
