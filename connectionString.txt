@@ -1,1 +1,1 @@
-mongodb+srv://react-cart:XrANAjgAa2TQUpY6@cluster0.0zi1f.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+mongodb+srv://react-cart:XrANAjgAa2TQUpY6@cluster0.0zi1f.mongodb.net/react-cart?retryWrites=true&w=majority

@@ -214,51 +214,41 @@ input {
   z-index: 1000;
 }
 
-
 /* Order Details */
 
-.order-details{
+.order-details {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100%;
 }
-
-.order-details li{
+.order-details li {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-.order-details li div{
+.order-details li div {
   padding: 10px;
 }
-
-.order-details.cart-items{
+.order-details .items {
   text-align: right;
   padding: 0;
 }
-
-.success-message{
+.success-message {
   color: green;
 }
-
 /* Orders */
-
-.orders{
+.orders {
   width: 100%;
   padding: 10px;
 }
-
-tbody > tr:nth-child(odd){
+tbody > tr:nth-child(odd) {
   background-color: #f0f0f0;
 }
-
-td{
+td {
   padding: 5px;
 }
-
-th{
+th {
   text-align: left;
 }
